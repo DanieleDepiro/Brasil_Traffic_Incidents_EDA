@@ -3,11 +3,15 @@
 This project encompasses an exploratory data analysis of Brazilian traffic accidents documented by the Brazilian Federal Police from 2007 to the present day. The data, stored in separate CSV files for each year, underwent a process of combination, cleaning, and validation to create a cohesive dataset. This unified dataset was then imported into Tableau for an in-depth analysis aimed at uncovering potential trends.
 ## 2. Motivation
 I started this project due to its profound implications for public safety and societal welfare. Upon discovering this comprehensive dataset on Kaggle with data provided by the Brazilian Federal Police, I felt compelled to analyse it. The primary aim of this project is to uncover underlying trends, correlations, and potential causative factors within the data. Ultimately, the goal is to illuminate crucial insights beneficial to policymakers, law enforcement agencies, urban planners, and road maintenance institutions. By comprehending the dynamics of these accidents, our objective is to contribute to the formulation of proactive measures that can effectively mitigate risks, bolster road safety, and, most importantly, save lives. On a personal level, the prospect of utilizing data-driven insights to address societal challenges and elevate safety standards motivates me to delve deeper into this analysis. It's driven by my passion for leveraging data to create a tangible positive impact within our communities.
+
 ### About the dataset
 The dataset is available for download [here](https://www.kaggle.com/datasets/tgomesjuliana/police-traffic-incidents). The user who shared this datasat has downloaded the data from the official website of the Brazilian Federal Police.
 
 ### Data Cleaning and Validation
-The python script to combine all .cvs files have been 
+Access the Jupyter Notebook containing all data cleaning and validation steps [here]
+
+### Dashboard
+Explore the interactive dashboard by clicking [here](https://public.tableau.com/app/profile/daniele.d.epiro/viz/BrazilTrafficIncidents/ExploringBrazilianTrafficIncidents)
 
 ## 3. Setting-up the project
 After I have identified the dataset and the goals I just mentioned above, I finally breakdown the project into 4 steps:
