@@ -10,10 +10,10 @@ I started this project due to its profound implications for public safety and so
 The dataset is available for download [here](https://www.kaggle.com/datasets/tgomesjuliana/police-traffic-incidents). The user who shared this datasat has downloaded the data from the official website of the Brazilian Federal Police.
 
 ### Data Cleaning and Validation
-Access the Jupyter Notebook containing all data cleaning and validation steps [here]
+Access the Jupyter Notebook containing all data cleaning and validation steps [here](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Brazil%20Traffic%20Incidents%202007-2023%20(Data%20Cleaning%20and%20Prep).ipynb).
 
 ### Dashboard
-Explore the interactive dashboard by clicking [here](https://public.tableau.com/app/profile/daniele.d.epiro/viz/BrazilTrafficIncidents/ExploringBrazilianTrafficIncidents)
+Explore the interactive dashboard by clicking [here](https://public.tableau.com/app/profile/daniele.d.epiro/viz/BrazilTrafficIncidents/ExploringBrazilianTrafficIncidents).
 
 ## 3. Setting-up the project
 After I have identified the dataset and the goals I just mentioned above, I finally breakdown the project into 4 steps:
