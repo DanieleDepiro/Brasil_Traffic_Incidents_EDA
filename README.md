@@ -1,5 +1,5 @@
 # Brazil Traffic Incidents E.D.A.
-
+![image1](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/young-couple-broke-down-car-while-traveling-way-rest-they-are-trying-stop-other-drivers-ask-help-hitchhike-relationship-troubles-road-vacation.jpg)
 ## 1.Overview
 This project encompasses an exploratory data analysis of Brazilian traffic accidents documented by the Brazilian Federal Police from 2007 to the present day. The data, stored in separate CSV files for each year, underwent a process of combination, cleaning, and validation to create a cohesive dataset. This unified dataset was then imported into Tableau for an in-depth analysis aimed at uncovering potential trends.
 
@@ -26,25 +26,27 @@ After I have identified the dataset and the goals I just mentioned above, I fina
 * Combine all .csv files into a single dataset.
    - Handle any conflicts or discrepancies in the data during the merging process.
 
-* - Data cleaning and validation
+* Data cleaning and validation
    - Perform data cleaning operations like handling missing values, standardizing formats, and removing duplicates.
    - Validate the cleaned data to ensure accuracy and consistency.
-   :
+   
 
-* Import the cleaned dataset into Tableau.
+* Import the cleaned dataset into Tableau
    - Explore data in Tableau
    - Create visualizations that address the project goals.
    - Design a dashboard that provides an intuitive and informative interface for end-users.
 
 ### Prerequisites
+
 First a knowledge of the portuguese language is needed because values are obviously recorded in the official language of the country.
 To run this project, ensure you have the following installed:
-* Jupyter Notebook:
+
+* Jupyter Notebook
     - Used to execute Python scripts and interactively work with the code.
     - You can access Jupyter Notebook through Anaconda, a popular Python distribution.
     - If you don't have Anaconda installed, you can download it [here](https://www.anaconda.com/download).
 
-* Tableau Public:
+* Tableau Public
     - Utilized for data visualization purposes.
     - Tableau Public is a free tool that allows you to create and share interactive data visualizations.
     - You can download it [here](https://www.tableau.com/products/public/download).
@@ -53,13 +55,16 @@ To run this project, ensure you have the following installed:
 
 * Encoding:
 While loading the csv I had several warning and to efficiently load the data I used the following code:
+
 * Combine the dataset
 The latest records hade more field compared to the ones in the early years. For example UOP and Delegacia fields started to be recorded only in the last years and I decided to keep this fields because they can help understand which police station was controlling the area of the accidents. For the early years they were validated as missing value.
+
 ```Python
 import pandas as pd
 # correctly importing csv files
 year_2007 = pd.read_csv('Dados_PRF_2007.csv', encoding='latin1', delimiter=';', dtype={'br': str, 'km': str})
 ``` 
+
 * Combine the dataset
 The latest records hade more field compared to the ones in the early years. For example UOP and Delegacia fields started to be recorded only in the last years and I decided to keep this fields because they can help understand which police station was controlling the area of the accidents. For the early years they were validated as missing value.
 
@@ -78,14 +83,14 @@ Some citizens(ID) where involved in more the one accident during these years
 ## 5. Finding and Insights
 
 This analysis reveals a consistent reduction in the number of car accidents since 2013, with a projected stabilization at the 2023 level until 2025.
-![alt1](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents-%20Trends%20over%20time.png)
+![image2](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents-%20Trends%20over%20time.png)
 
 Surprisingly, São Paulo, despite its high population and traffic density, doesn't claim the top spot for the highest number of crashes. Instead, the city of Curitiba in Paraná emerges as the leader in reported accidents.
 Further investigation identifies Minas Gerais as the state with the highest number of accidents, followed closely by Santa Catarina, Paraná, Rio Grande do Sul, and Rio de Janeiro. 
-![alt](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents%20-%20City%20and%20states.png)
+![image3](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents%20-%20City%20and%20states.png)
 
 Notably, the analysis pinpoints BR 101 and BR 116 as the most perilous roads, indicating a concentration of accidents along these routes.
-![a](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents-%20Dangerous%20road.png)
+![image4](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents-%20Dangerous%20road.png)
 
 These insights shed light on shifting accident trends, surprising city-specific statistics, and the identification of specific states and roads as focal points for heightened vigilance and targeted interventions. The data underscores the necessity for tailored strategies aimed at reducing accidents and improving road safety in these identified regions and along critical routes
 
@@ -96,3 +101,4 @@ The insights derived from this report hold significant potential to benefit nume
 Moreover, understanding the root causes of these accidents enables governmental and non-governmental entities to develop tailored awareness campaigns. Pinpointing the primary reasons behind these incidents empowers authorities to craft effective initiatives that promote safe driving practices among motorists.
 
 The dashboard's 'dangerous site identifier' stands out as a particularly valuable tool. It allows for the identification of specific kilometer ranges where accidents are most prevalent. This information serves as a pivotal resource, enabling stakeholders to focus their efforts on areas requiring immediate attention and intervention.
+![image5](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Site%20identifier.png)
