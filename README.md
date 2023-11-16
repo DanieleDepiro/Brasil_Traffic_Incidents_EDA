@@ -10,10 +10,10 @@ I started this project due to its profound implications for public safety and so
 The dataset is available for download [here](https://www.kaggle.com/datasets/tgomesjuliana/police-traffic-incidents). The user who shared this datasat has downloaded the data from the official website of the Brazilian Federal Police.
 
 ### Data Cleaning and Validation
-Access the Jupyter Notebook containing all data cleaning and validation steps [here]
+Access the Jupyter Notebook containing all data cleaning and validation steps [here](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Brazil%20Traffic%20Incidents%202007-2023%20(Data%20Cleaning%20and%20Prep).ipynb).
 
 ### Dashboard
-Explore the interactive dashboard by clicking [here](https://public.tableau.com/app/profile/daniele.d.epiro/viz/BrazilTrafficIncidents/ExploringBrazilianTrafficIncidents)
+Explore the interactive dashboard by clicking [here](https://public.tableau.com/app/profile/daniele.d.epiro/viz/BrazilTrafficIncidents/ExploringBrazilianTrafficIncidents).
 
 ## 3. Setting-up the project
 After I have identified the dataset and the goals I just mentioned above, I finally breakdown the project into 4 steps:
@@ -78,9 +78,14 @@ Some citizens(ID) where involved in more the one accident during these years
 ## 5. Finding and Insights
 
 This analysis reveals a consistent reduction in the number of car accidents since 2013, with a projected stabilization at the 2023 level until 2025.
+![alt1](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents-%20Trends%20over%20time.png)
 
 Surprisingly, São Paulo, despite its high population and traffic density, doesn't claim the top spot for the highest number of crashes. Instead, the city of Curitiba in Paraná emerges as the leader in reported accidents.
-Further investigation identifies Minas Gerais as the state with the highest number of accidents, followed closely by Santa Catarina, Paraná, Rio Grande do Sul, and Rio de Janeiro. Notably, the analysis pinpoints BR 101 and BR 116 as the most perilous roads, indicating a concentration of accidents along these routes.
+Further investigation identifies Minas Gerais as the state with the highest number of accidents, followed closely by Santa Catarina, Paraná, Rio Grande do Sul, and Rio de Janeiro. 
+![alt](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents%20-%20City%20and%20states.png)
+
+Notably, the analysis pinpoints BR 101 and BR 116 as the most perilous roads, indicating a concentration of accidents along these routes.
+![a](https://github.com/DanieleDepiro/Brasil_Traffic_Incidents_EDA/blob/main/Images/Exploring%20Brazilian%20Traffic%20Incidents-%20Dangerous%20road.png)
 
 These insights shed light on shifting accident trends, surprising city-specific statistics, and the identification of specific states and roads as focal points for heightened vigilance and targeted interventions. The data underscores the necessity for tailored strategies aimed at reducing accidents and improving road safety in these identified regions and along critical routes
 
