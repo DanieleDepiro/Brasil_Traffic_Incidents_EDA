@@ -1,6 +1,8 @@
 # Brazil Traffic Incidents E.D.A.
+
 ## 1.Overview
 This project encompasses an exploratory data analysis of Brazilian traffic accidents documented by the Brazilian Federal Police from 2007 to the present day. The data, stored in separate CSV files for each year, underwent a process of combination, cleaning, and validation to create a cohesive dataset. This unified dataset was then imported into Tableau for an in-depth analysis aimed at uncovering potential trends.
+
 ## 2. Motivation
 I started this project due to its profound implications for public safety and societal welfare. Upon discovering this comprehensive dataset on Kaggle with data provided by the Brazilian Federal Police, I felt compelled to analyse it. The primary aim of this project is to uncover underlying trends, correlations, and potential causative factors within the data. Ultimately, the goal is to illuminate crucial insights beneficial to policymakers, law enforcement agencies, urban planners, and road maintenance institutions. By comprehending the dynamics of these accidents, our objective is to contribute to the formulation of proactive measures that can effectively mitigate risks, bolster road safety, and, most importantly, save lives. On a personal level, the prospect of utilizing data-driven insights to address societal challenges and elevate safety standards motivates me to delve deeper into this analysis. It's driven by my passion for leveraging data to create a tangible positive impact within our communities.
 
@@ -19,17 +21,18 @@ After I have identified the dataset and the goals I just mentioned above, I fina
    - Load each .csv file using pandas.
    - Inspect the structure, columns, and data types.
    - Check for missing values, outliers, or inconsistencies.
-   - Combine all .csv files into a single dataset:
+   
 
-* Merge/join the separate datasets based on common columns or keys.
+* Combine all .csv files into a single dataset.
    - Handle any conflicts or discrepancies in the data during the merging process.
-   - Data cleaning and validation:
 
-* Perform data cleaning operations like handling missing values, standardizing formats, and removing duplicates.
+* - Data cleaning and validation
+   - Perform data cleaning operations like handling missing values, standardizing formats, and removing duplicates.
    - Validate the cleaned data to ensure accuracy and consistency.
-   - Explore data in Tableau and create a user-friendly dashboard:
+   :
 
 * Import the cleaned dataset into Tableau.
+   - Explore data in Tableau
    - Create visualizations that address the project goals.
    - Design a dashboard that provides an intuitive and informative interface for end-users.
 
